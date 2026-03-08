@@ -21,7 +21,7 @@ In this project we built a machine learning model that predicts the **Air Qualit
 |---|---|
 | `AQI_Prediction_Project.ipynb` | Main Jupyter Notebook — full ML pipeline |
 | `aqi_dataset.csv` | Generated dataset — 1,500 air quality readings |
-| `README.md` | This summary file |
+| `README.md` | Summary file |
 
 ---
 
@@ -71,7 +71,7 @@ In this project we built a machine learning model that predicts the **Air Qualit
 | Feature scaling | StandardScaler | Brings all features to same scale — essential for KNN and SVM |
 | Split | 80/20 train/test | Standard for medium datasets — 1,200 training, 300 test samples |
 
-> **Key insight:** Removing outliers with IQR method dropped R² to 0.736. Keeping them improved it to **0.853** — a 16.2% improvement. Domain knowledge matters as much as technical skill.
+> **Key insight:** Removing outliers with IQR method dropped R² to 0.736. Keeping them improved it to **0.853** — a 16.2% improvement.
 
 ---
 
